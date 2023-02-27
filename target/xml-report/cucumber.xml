@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.14">
+    <testcase classname="Carbohydrate Calculator Calculation Logic" name="Verify calculation logic for carbohydrate intake" time="10.749">
+        <system-out>
+            <![CDATA[When user click "Metrik unit" buttom........................................passed
+Given the user enters their age as "30".....................................passed
+And the user selects their gender as "male".................................passed
+And the user enters their height as "180"...................................passed
+And the user enters their weight as "75"....................................passed
+And the user selects their activity level as "0"............................passed
+When the user submits the form..............................................passed
+Then verify the calculated carbohydrate intake should be "312.5" grams per day.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
